@@ -10,6 +10,7 @@ import Drag from './DragableComponent/Drag';
 import ImageDrag from './DragableComponent/ImageDrag';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +28,8 @@ function App() {
       {/* <Rectangle/> */}
       <Drag/>
       <ImageDrag/>
+
+
       </>
     </div>
 
