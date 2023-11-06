@@ -1,6 +1,35 @@
-.rectangle {
-  width: 200px;
-  height: 100px;
-  background-color: blue;
-  border: 1px solid black;
+.resize-handle {
+  width: 10px;
+  height: 10px;
+  background-color: #3498db;
+  position: absolute;
+  cursor: pointer;
+}
+
+.resize-handle.top {
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.resize-handle.right {
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%);
+  cursor: ew-resize;
+}
+
+.resize-handle.bottom {
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: ns-resize;
+}
+
+.resize-handle.left {
+  top: 50%;
+  left: -5px;
+  transform: translateY(-50%);
+  cursor: ew-resize;
 }
